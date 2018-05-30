@@ -1,4 +1,4 @@
-package com.example.administrator.mvphero.view;
+package com.example.administrator.mvphero;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

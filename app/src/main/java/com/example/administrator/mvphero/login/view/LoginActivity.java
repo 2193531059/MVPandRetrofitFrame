@@ -1,8 +1,10 @@
-package com.example.administrator.mvphero.view;
+package com.example.administrator.mvphero.login.view;
 
 import android.support.v4.app.Fragment;
 
-public class LoginActivity extends BaseActivity{
+import com.example.administrator.mvphero.BaseActivity;
+
+public class LoginActivity extends BaseActivity {
     private static final String TAG = "LoginActivity";
     private LoginFragment fragment;
 

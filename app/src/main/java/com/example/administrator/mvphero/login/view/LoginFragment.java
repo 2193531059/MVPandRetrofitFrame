@@ -1,4 +1,4 @@
-package com.example.administrator.mvphero.view;
+package com.example.administrator.mvphero.login.view;
 
 import android.content.Intent;
 import android.util.Log;
@@ -6,11 +6,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.example.administrator.mvphero.MainActivity;
+import com.example.administrator.mvphero.BaseFragment;
+import com.example.administrator.mvphero.main.MainActivity;
 import com.example.administrator.mvphero.R;
 import com.example.administrator.mvphero.custom.EditTextWithDel;
-import com.example.administrator.mvphero.presenter.BasePresenter;
-import com.example.administrator.mvphero.presenter.Presenter;
+import com.example.administrator.mvphero.BasePresenter;
+import com.example.administrator.mvphero.login.presenter.Presenter;
 import com.example.administrator.mvphero.retrofit.ExceptionHandler;
 import com.example.administrator.mvphero.util.PreferenceUtil;
 

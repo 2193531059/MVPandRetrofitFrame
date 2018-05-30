@@ -1,4 +1,4 @@
-package com.example.administrator.mvphero.presenter;
+package com.example.administrator.mvphero;
 
 import java.lang.ref.WeakReference;
 

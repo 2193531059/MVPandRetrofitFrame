@@ -1,8 +1,8 @@
-package com.example.administrator.mvphero.presenter;
+package com.example.administrator.mvphero.login.presenter;
 
 import android.content.Context;
-import android.util.Log;
 
+import com.example.administrator.mvphero.BasePresenter;
 import com.example.administrator.mvphero.model.DataHandler;
 import com.example.administrator.mvphero.model.DataHandlerImpl;
 import com.example.administrator.mvphero.retrofit.ExceptionHandler;
@@ -11,9 +11,8 @@ import com.example.administrator.mvphero.retrofit.RetrofitManager;
 import com.example.administrator.mvphero.retrofit.bean.PhoneLoginRequestBean;
 import com.example.administrator.mvphero.retrofit.bean.PhoneLoginResponseBean;
 import com.example.administrator.mvphero.sqlite.bean.User;
-import com.example.administrator.mvphero.view.ViewHandler;
+import com.example.administrator.mvphero.login.view.ViewHandler;
 
-import java.util.Date;
 import java.util.Random;
 
 import rx.Subscriber;

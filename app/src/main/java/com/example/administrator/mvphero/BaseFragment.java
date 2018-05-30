@@ -1,4 +1,4 @@
-package com.example.administrator.mvphero.view;
+package com.example.administrator.mvphero;
 
 import android.app.Activity;
 import android.content.Context;
@@ -11,7 +11,7 @@ import android.view.ViewGroup;
 import android.view.Window;
 
 import com.example.administrator.mvphero.R;
-import com.example.administrator.mvphero.presenter.BasePresenter;
+import com.example.administrator.mvphero.BasePresenter;
 
 public abstract class BaseFragment<V, P extends BasePresenter<V>> extends Fragment{
     private P mPresenter;

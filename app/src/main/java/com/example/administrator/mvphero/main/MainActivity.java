@@ -1,8 +1,10 @@
-package com.example.administrator.mvphero;
+package com.example.administrator.mvphero.main;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
+
+import com.example.administrator.mvphero.R;
 
 public class MainActivity extends AppCompatActivity{
     private TextView username;
